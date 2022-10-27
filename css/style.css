@@ -1,0 +1,69 @@
+
+/* Puntero sobre hipervinculos a */
+a {
+    cursor: pointer;
+}
+
+/* Nav superior- color del background del navbar superior */
+.bg-oscurito{
+    background-color: #3a3a3a;
+}
+
+/* Nav superior- Comprar ticket */
+#verde-success {
+    color: #1ac776;
+}
+
+
+
+/* slider image*/
+
+.container-1 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.text-main {
+    text-align: right;
+}
+
+.container-2 {
+    margin-right: 6%;
+    margin-bottom: 6%;
+    width: 40%;
+    height: auto;
+}
+
+.container-2 h2, .container-2 h3 {
+    font-size: 1.5vw;
+}
+
+
+.card-img {
+    opacity: 0.4;
+    height: 50vh;
+    object-fit: cover;
+}
+
+
+.img-honolulu {
+    height: 40vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Navbar inferior*/
+
+#navbar-foot {
+ background-color: hsl(207, 71%, 19%);
+}
+
+/* Verde Claro */
+.verde-claro {
+    background-color: #17b124b7;
+}
+
+.fondo-azul {
+    background-color: rgba(0, 0, 255, 0.979);
+}
