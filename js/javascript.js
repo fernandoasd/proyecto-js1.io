@@ -16,22 +16,22 @@ document.getElementById('btn_borrar').addEventListener('click', borrar);
 
 function resumen(){
     switch (selected_js.value){
-        case selected_js.value="Estudiante":
-            console.log("seleccion= 1->" + selected_js.value + " TOTAL : " + total_pagar_js.value);
-            total_pagar_js.value= "Total a Pagar: $" + 200*0.2*cantidad_js.value;
-        break;
         case selected_js.value="1":
-            console.log("seleccion= 1->" + selected_js.value);
-            total_pagar_js.value = "Total a Pagar: $" + 200*0.5*cantidad_js.value;
+            total_pagar_js.value= "Total a Pagar: $" + 200*cantidad_js.value;
         break;
         case selected_js.value="2":
-            console.log("seleccion= 2->" + selected_js.value);
+            total_pagar_js.value = "Total a Pagar: $" + 200*0.2*cantidad_js.value;
+        break;
+        case selected_js.value="3":
+            total_pagar_js.value = "Total a Pagar: $" + 200*0.5*cantidad_js.value;
+        break;
+                case selected_js.value="4":
             total_pagar_js.value = "Total a Pagar: $" + 200*0.85*cantidad_js.value;
         break;
     }
 }
 
-function ver (){
+function ver (){ //función de control para consola
     console.log("seleccion= " + selected_js.value + " Total : " + total_pagar_js.value);
 }
 
