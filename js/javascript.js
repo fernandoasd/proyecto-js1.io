@@ -86,7 +86,7 @@ function borrar() {
     mail_js.style.backgroundColor = "white"
     cantidad_js.style.backgroundColor = "white"
     nombre_js.placeholder = "Ingresar nombre"
-    apellido_js.placeholder = "Iingresar apellido"
+    apellido_js.placeholder = "Ingresar apellido"
     mail_js.placeholder = "Mail"
     cantidad_js.placeholder = "Cantidad"
 }
